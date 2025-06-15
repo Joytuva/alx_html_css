@@ -1,0 +1,397 @@
+/* Reset + Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #fff;
+  color: #fff;
+}
+
+header {
+  background-color: #000;
+  padding: 20px 80px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  height: 30px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+main section:first-of-type {
+  background-image: url('./images/Object.png'); /* update to actual path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+main section:first-of-type h1 {
+  font-size: 120px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+main section:first-of-type span {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 5px;
+  display: inline-block;
+}
+
+main section:first-of-type button {
+  margin-top: 30px;
+  padding: 15px 40px;
+  font-size: 14px;
+  background-color: #C271FF;
+  color: #fff;
+  border: none;
+  border-radius: 22px;
+  font-weight: 600;
+  cursor: pointer;
+}
+main section:nth-of-type(2) {
+  background-color: #C271FF;
+  color: #fff;
+  padding: 100px 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+main section:nth-of-type(2) img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+main section:nth-of-type(2) blockquote {
+  font-style: italic;
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  max-width: 500px;
+}
+
+main section:nth-of-type(2) h3 {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+main section:nth-of-type(2) p {
+  font-size: 14px;
+  font-weight: 400;
+  /* VIDEOS LIST SECTION */
+main section:nth-of-type(3) {
+  padding: 100px 80px;
+  background-color: #fff;
+  color: #071629;
+}
+
+main section:nth-of-type(3) h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.video-card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.video-card {
+  width: 255px;
+  display: flex;
+  flex-direction: column;
+}
+
+.video-card img:first-child {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.video-card h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.video-card p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #071629;
+  margin-bottom: 10px;
+}
+
+.video-author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.video-author img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.video-author h4 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.video-stars {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.video-stars i {
+  color: #C271FF;
+  font-size: 12px;
+}
+
+.video-card > p:last-of-type {
+  font-size: 12px;
+  color: #C271FF;
+  font-weight: 600;
+}
+/* VIDEOS LIST SECTION */
+main section:nth-of-type(3) {
+  padding: 100px 80px;
+  background-color: #fff;
+  color: #071629;
+}
+
+main section:nth-of-type(3) h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.video-card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.video-card {
+  width: 255px;
+  display: flex;
+  flex-direction: column;
+}
+
+.video-card img:first-child {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.video-card h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.video-card p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #071629;
+  margin-bottom: 10px;
+}
+
+.video-author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.video-author img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.video-author h4 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.video-stars {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.video-stars i {
+  color: #C271FF;
+  font-size: 12px;
+}
+
+.video-card > p:last-of-type {
+  font-size: 12px;
+  color: #C271FF;
+  font-weight: 600;
+}/* MEMBERSHIP SECTION */
+main section:nth-of-type(4) {
+  background-color: #071629;
+  color: white;
+  padding: 100px 80px;
+  text-align: center;
+}
+
+main section:nth-of-type(4) h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.membership-features {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.membership-feature {
+  width: 200px;
+  text-align: center;
+}
+
+.membership-feature img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.membership-feature h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.membership-feature p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.membership-button {
+  background-color: #C271FF;
+  color: white;
+  padding: 14px 40px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* FAQ SECTION */
+main section:nth-of-type(5) {
+  padding: 100px 80px;
+  background-color: white;
+  color: #071629;
+}
+
+main section:nth-of-type(5) h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.faq-columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.faq-column {
+  width: 48%;
+}
+
+.faq-column h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.faq-column div {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+/* FOOTER SECTION */
+footer {
+  background-color: #071629;
+  color: white;
+  padding: 60px 80px;
+}
+
+footer section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+footer img {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+footer div {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+footer i {
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+footer p {
+  font-size: 12px;
+  color: #ffffff80;
+}
